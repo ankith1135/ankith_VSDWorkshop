@@ -1,4 +1,4 @@
-<img width="1140" height="728" alt="Screenshot 2025-09-18 223858" src="https://github.com/user-attachments/assets/28009f78-0ad4-42f6-987e-1e9cdc1590cc" />This repo documents my setup journey for VLSI tools and workflows.  
+This repo documents my setup journey for VLSI tools and workflows.  
 I followed a structured approach (Task-1, Task-2, …) and captured screenshots along the way.  
 System used: **Ubuntu 22.04 (Jammy Jellyfish)** on **VirtualBox**.
 
