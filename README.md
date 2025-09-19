@@ -57,6 +57,15 @@ sudo apt-get update
 sudo apt-get install gtkwave
 ```
 <img width="1140" height="728" alt="Screenshot 2025-09-18 223858" src="https://github.com/user-attachments/assets/7e4c0734-8e41-41ac-a4c9-6df8d3ca5053" />
+## 2. OpenSTA
+
+git clone https://github.com/The-OpenROAD-Project/OpenSTA
+cd OpenSTA
+
+## 5. Ngspice
+
+<img width="871" height="624" alt="image" src="https://github.com/user-attachments/assets/b6d80611-2b28-4ba5-a5f9-1c93cbde9c11" />
+
 
 
 
