@@ -40,7 +40,7 @@ System used: **Ubuntu 22.04 (Jammy Jellyfish)** on **VirtualBox**.
   ``` ```
 <img width="1104" height="754" alt="image" src="https://github.com/user-attachments/assets/1acb972d-9191-4d71-9918-aeea7e26364e" />
 
-## 2. Icarus Verilog (iverilog)
+2. **Icarus Verilog (iverilog)**
 
 Installation:
 ```bash
@@ -49,7 +49,7 @@ sudo apt-get install iverilog
 ```
 <img width="835" height="577" alt="Screenshot 2025-09-18 223349" src="https://github.com/user-attachments/assets/b6c15ae4-0a1a-48ea-bcdb-200d48eee145" />
 
-## 3. GTKWave
+3.** GTKWave**
 
 Installation:
 ```bash
@@ -59,7 +59,7 @@ gtkwave
 ```
 <img width="1140" height="728" alt="Screenshot 2025-09-18 223858" src="https://github.com/user-attachments/assets/dbe3b3b8-ee5b-4ad0-94c0-7787946dd3bd" />
 
-## 4. OpenSTA
+4. **OpenSTA**
 
 Installation:
 ```bash
@@ -73,7 +73,7 @@ make install
 ```
 <img width="1227" height="495" alt="image" src="https://github.com/user-attachments/assets/850b365e-cbfc-471a-b065-7cee5f84525a" />
 
-##5. ngspice
+5. **ngspice**
 
 Installation:
 ```bash
@@ -90,7 +90,7 @@ sudo make install
 ```
 <img width="871" height="624" alt="Screenshot 2025-09-19 064112" src="https://github.com/user-attachments/assets/5c3d0bad-c43d-4962-95f4-d854cbd241ee" />
 
-##5. magic
+6. **magic**
 
 Installation:
 ```bash
@@ -111,6 +111,6 @@ make install
 <img width="1201" height="753" alt="Screenshot 2025-09-19 073047" src="https://github.com/user-attachments/assets/6c838f32-3a58-426d-9073-ffdd70cb2ce7" />
 
 
-##6. Openlane
+6. **Openlane**
 <img width="1248" height="782" alt="image" src="https://github.com/user-attachments/assets/7a920f38-a285-424e-a223-f26dc1334330" />
 
