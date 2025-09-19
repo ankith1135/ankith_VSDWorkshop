@@ -1,13 +1,11 @@
-# VLSI Physical Design Setup – Ubuntu Jammy Jellyfish
-
-This repo documents my setup journey for VLSI tools and workflows.  
+<img width="1140" height="728" alt="Screenshot 2025-09-18 223858" src="https://github.com/user-attachments/assets/28009f78-0ad4-42f6-987e-1e9cdc1590cc" />This repo documents my setup journey for VLSI tools and workflows.  
 I followed a structured approach (Task-1, Task-2, …) and captured screenshots along the way.  
 System used: **Ubuntu 22.04 (Jammy Jellyfish)** on **VirtualBox**.
 
 ---
 
 ## 📌 Table of Contents
-- [Day 0 – Tools Installation](#day-0---tools-installatio
+- [Day 0 – Tools Installation](#day-0---tools-installations)
 
 ---
 
@@ -40,6 +38,7 @@ System used: **Ubuntu 22.04 (Jammy Jellyfish)** on **VirtualBox**.
    make
    sudo make install
   ``` ```
+<img width="1104" height="754" alt="image" src="https://github.com/user-attachments/assets/1acb972d-9191-4d71-9918-aeea7e26364e" />
 
 ## 2. Icarus Verilog (iverilog)
 
@@ -49,7 +48,6 @@ sudo apt-get update
 sudo apt-get install iverilog
 ```
 <img width="835" height="577" alt="Screenshot 2025-09-18 223349" src="https://github.com/user-attachments/assets/b6c15ae4-0a1a-48ea-bcdb-200d48eee145" />
-
 
 ## 3. GTKWave
 
@@ -61,5 +59,53 @@ gtkwave
 ```
 <img width="1140" height="728" alt="Screenshot 2025-09-18 223858" src="https://github.com/user-attachments/assets/dbe3b3b8-ee5b-4ad0-94c0-7787946dd3bd" />
 
+## 4. OpenSTA
 
+Installation:
+```bash
+https://github.com/The-OpenROAD-Project/OpenSTA 
+cd OpenSTA
+(download cudd from online if not there)
+make
+```
+
+##5. ngspice
+
+Installation:
+```bash
+After downloading the tarball from https://sourceforge.net/projects/ngspice/files/ to a local
+directory, unpack it using:
+tar -zxvf ngspice-37.tar.gz
+cd ngspice-37
+mkdir release
+cd release
+../configure --with-x --with-readline=yes --disable-debug
+make
+sudo make install 
+
+```
+<img width="871" height="624" alt="Screenshot 2025-09-19 064112" src="https://github.com/user-attachments/assets/5c3d0bad-c43d-4962-95f4-d854cbd241ee" />
+
+##5. magic
+
+Installation:
+```bash
+sudo apt-get install tcsh
+sudo apt-get install csh
+sudo apt-get install libx11-dev
+sudo apt-get install tcl-dev tk-dev
+sudo apt-get install libcairo2-dev
+sudo apt-get install mesa-common-dev libglu1-mesa-dev
+sudo apt-get install libncurses-dev
+git clone https://github.com/RTimothyEdwards/magic
+cd magic
+./configure
+make
+make install 
+
+```
+<img width="1201" height="753" alt="Screenshot 2025-09-19 073047" src="https://github.com/user-attachments/assets/6c838f32-3a58-426d-9073-ffdd70cb2ce7" />
+
+
+##6. Openlane
 
