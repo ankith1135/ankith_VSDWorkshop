@@ -112,5 +112,6 @@ make install
 
 
 7. **Openlane**
-<img width="1248" height="782" alt="image" src="https://github.com/user-attachments/assets/7a920f38-a285-424e-a223-f26dc1334330" />
+   <img width="1297" height="790" alt="image" src="https://github.com/user-attachments/assets/570786ed-d62d-4ef2-8762-3d81c220f754" />
+
 
