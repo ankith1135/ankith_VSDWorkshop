@@ -63,11 +63,15 @@ gtkwave
 
 Installation:
 ```bash
-https://github.com/The-OpenROAD-Project/OpenSTA 
+https://github.com/The-OpenROAD-Project/OpenSTA.git
 cd OpenSTA
-(download cudd from online if not there)
-make
+mkdir build
+cd build
+cmake ..
+make -j$(nproc)
+make install
 ```
+<img width="1227" height="495" alt="image" src="https://github.com/user-attachments/assets/850b365e-cbfc-471a-b065-7cee5f84525a" />
 
 ##5. ngspice
 
