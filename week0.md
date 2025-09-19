@@ -49,7 +49,7 @@ sudo apt-get install iverilog
 ```
 <img width="835" height="577" alt="Screenshot 2025-09-18 223349" src="https://github.com/user-attachments/assets/b6c15ae4-0a1a-48ea-bcdb-200d48eee145" />
 
-3.** GTKWave**
+3.**GTKWave**
 
 Installation:
 ```bash
@@ -111,6 +111,6 @@ make install
 <img width="1201" height="753" alt="Screenshot 2025-09-19 073047" src="https://github.com/user-attachments/assets/6c838f32-3a58-426d-9073-ffdd70cb2ce7" />
 
 
-6. **Openlane**
+7. **Openlane**
 <img width="1248" height="782" alt="image" src="https://github.com/user-attachments/assets/7a920f38-a285-424e-a223-f26dc1334330" />
 
